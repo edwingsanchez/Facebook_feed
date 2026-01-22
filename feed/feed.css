@@ -169,6 +169,18 @@ a{
     font-size: 17px;
 }
 
+.reels{
+    background-color: white;
+    height: 240px;
+
+    display: flex;
+    align-items: center;
+    border: none;
+
+    gap: 5px;
+
+}
+
 .reels img{
     height: 50px;
     width: 150;
