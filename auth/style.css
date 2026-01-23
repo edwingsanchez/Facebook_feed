@@ -72,18 +72,16 @@ h1{
 
 
 .botoncrearcuenta{
+    text-decoration: none;
+    color: white;
+}
+
+.botoncrearcuenta button{
     width: 200px;
     height: 50px;
-    margin-left: 95px;
 
     color: white;
     background-color: rgb(0, 199, 0);
-    
-}
-
-.botoncrearcuenta a{
-    text-decoration: none;
-    color: white;
 }
 
 .olv{
