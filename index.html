@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/auth/style.css">
+    <link rel="icon" href="/img/feis-logo.png">
+    <title>Facebook - Login or Sign up</title>
 </head>
 <body>
-    <h1>Hola lola</h1>
+    <div class="lool">
+        <div class="ima">
+            <div class="prueba">
+                <img src="/img/images.png" alt="">
+                <P>Facebook te ayuda a comunicarte y<br>compartir con las personas que forman<br>parte de tu vida</P>
+            </div>
+ 
+        </div>
+        <div class="formu">
+            <input id="email" required type="email" type="number" placeholder="Correo electrónico o núnmero de teléfono">
+            <input id="password" required type="password" placeholder="Contraseña">
+            <button class="botoniniciarsesion" onclick="IniciarSesion()" >Iniciar Sesión</button>
+            <a href="" class="olv">¿Olvidaste tu contraseña?</a>
+            <hr>
+            <a href="#" class="botoncrearcuenta"><button>Crear cuenta</button></a>
+
+            <script>
+                function IniciarSesion(){
+                    let mail = document.getElementById("email").value;
+                    let paswolden = document.getElementById("password").value;
+                    if (mail === "mauricio.sanchez.0727@gmail.com" && paswolden==="fuckdae"){
+                        window.location.href ="feed.html";
+                    }else{
+                        alert("usuario o contraseña incorrectos");
+                    }
+                    }
+            </script>
+        
+        </div>
+    </div>
+
+    <script>
+
+    </script>
 </body>
 </html>
